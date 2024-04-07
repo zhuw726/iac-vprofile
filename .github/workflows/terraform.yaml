@@ -2,15 +2,15 @@ name: "zoo IAC"
 on: 
   push:
     branches:
-      - "main"
-      - "stage"
+      - main
+      - stage
     paths:
-      - "terraform/**"
+      - terraform/**
   pull_request:
     branches:
-      - "main"
+      - main
     paths:
-      - "terrafrom/**"
+      - terrafrom/**
 env:
   AWS_ACCESS_KEY_ID: ${{  secrets.AWS_ACCESS_KEY_ID  }}
   AWS_SECRET_ACCESS_KEY: ${{  secrets.AWS_SECRET_ACCESS_KEY  }}
