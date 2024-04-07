@@ -33,7 +33,7 @@ jobs:
         #   sparse-checkout: |
         #     README.md
         #   sparse-checkout-cone-mode: false
-      - name: Setup Terraform with specified version on the runner
+      - name: Setup Terraform with specified version on the runneraa
         uses: hashicorp/setup-terraform@v3
       - name: terraform init
         id: init
