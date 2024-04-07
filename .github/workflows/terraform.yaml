@@ -28,7 +28,7 @@ jobs:
         working-directory: ./terraform
     steps:
       - uses: actions/checkout@v4
-        name: Checkout source code
+        name: Checkout source code a
         # with:
         #   sparse-checkout: |
         #     README.md
